@@ -16,8 +16,34 @@
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet"
 		type="text/css" />
 	<link href="css/bootstrap-italia/css/bootstrap-italia.min.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
 	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+	<style>
+		.election.nav {
+			font-size: 14px;
+			border: none;
+		}
+
+		.election.nav-tabs .nav-link {
+			color: rgba(255, 255, 255, 0.5)
+		}
+
+		.election.nav-tabs {
+			background: #ee681f;
+		}
+
+		.election.nav-tabs .nav-item.show .nav-link,
+		.election.nav-tabs .nav-link.active {
+			border-bottom-color: #fff;
+			color: #fff;
+		}
+
+		.nav-tabs .nav-item.show .nav-link,
+		.nav-tabs .nav-link.active {
+			background-color: #ee681f;
+			border-color: #b1b1b3 #b1b1b3 #fff;
+		}
+	</style>
 	<script src="scripts/jquery.min.js"></script>
 	<script src="scripts/skel.min.js"></script>
 	<script src="scripts/skel-panels.min.js"></script>
@@ -39,8 +65,13 @@
 
 		<div class="top">
 
+			<ul class="election nav nav-tabs auto">
+				<li class="nav-item"><a class="nav-link active" href="#">Elezioni 2021</a></li>
+				<li class="nav-item"><a class="nav-link" href="2016/index.html">Elezioni 2016</a></li>
+			</ul>
+
 			<!-- Logo -->
-			<div id="logo">
+			<div id="logo" class="mt-5">
 				<a href="https://altrementi.github.io" title="Sito ufficiale Lista Civica AltreMenti per Fasano">
 					<span class="image avatar48"><img src="images/logo_altrementi.png" alt="" /></span>
 					<h1 id="title">AltreMenti</h1>
@@ -425,14 +456,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Angelini Beniamino</h5>
-									<a class="read-more" href="doc/cv/Angelini_Beniamino-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Angelini_Beniamino-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Angelini_Beniamino-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Angelini_Beniamino-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -450,14 +483,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Bagordo Mariateresa</h5>
-									<a class="read-more" href="doc/cv/Bagordo_Mariateresa-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Bagordo_Mariateresa-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Bagordo_Mariateresa-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Bagordo_Mariateresa-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -475,14 +510,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Calabretti Antonella</h5>
-									<a class="read-more" href="doc/cv/Calabretti_Antonella-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Calabretti_Antonella-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Calabretti_Antonella-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Calabretti_Antonella-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -500,14 +537,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Casarano Leonardo</h5>
-									<a class="read-more" href="doc/cv/Casarano_Leonardo-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Casarano_Leonardo-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Casarano_Leonardo-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Casarano_Leonardo-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -528,14 +567,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Cisternino Giovanni</h5>
-									<a class="read-more" href="doc/cv/Cisternino_Giovanni-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Cisternino_Giovanni-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Cisternino_Giovanni-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Cisternino_Giovanni-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -553,14 +594,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Colucci Susanna</h5>
-									<a class="read-more" href="doc/cv/Colucci_Susanna-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Colucci_Susanna-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Colucci_Susanna-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Colucci_Susanna-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -578,14 +621,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">De Felice Chiara</h5>
-									<a class="read-more" href="doc/cv/De_Felice_Chiara-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/De_Felice_Chiara-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/De_Felice_Chiara-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/De_Felice_Chiara-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -603,14 +648,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Di Tano Giovanna</h5>
-									<a class="read-more" href="doc/cv/Di_Tano_Giovanna-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Di_Tano_Giovanna-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Di_Tano_Giovanna-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Di_Tano_Giovanna-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -631,14 +678,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Donnaloia Sergio</h5>
-									<a class="read-more" href="doc/cv/Donnaloia_Sergio-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Donnaloia_Sergio-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Donnaloia_Sergio-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Donnaloia_Sergio-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -656,14 +705,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Latorre Stefania</h5>
-									<a class="read-more" href="doc/cv/Latorre_Stefania-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Latorre_Stefania-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Latorre_Stefania-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Latorre_Stefania-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -681,14 +732,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Moretti Paolo</h5>
-									<a class="read-more" href="doc/cv/Moretti_Paolo-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Moretti_Paolo-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Moretti_Paolo-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Moretti_Paolo-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -706,14 +759,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Palmisano Stefano</h5>
-									<a class="read-more" href="doc/cv/Palmisano_Stefano-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Palmisano_Stefano-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Palmisano_Stefano-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Palmisano_Stefano-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -734,14 +789,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Pugliese Luigi</h5>
-									<a class="read-more" href="doc/cv/Pugliese_Luigi-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Pugliese_Luigi-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/cv/Pugliese_Luigi-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Pugliese_Luigi-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -759,14 +816,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Rubino Tommaso</h5>
-									<a class="read-more" href="doc/cv/Rubino_Tommaso-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Rubino_Tommaso-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Rubino_Tommaso-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Rubino_Tommaso-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -784,14 +843,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Vinci Angela</h5>
-									<a class="read-more" href="doc/cv/Vinci_Angela-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Vinci_Angela-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Vinci_Angela-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Vinci_Angela-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
@@ -809,14 +870,16 @@
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title big-heading">Vinci Donato</h5>
-									<a class="read-more" href="doc/cv/Vinci_Donato-CV.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/cv/Vinci_Donato-CV.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Curriculum</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
 											</use>
 										</svg>
 									</a>
-									<a class="read-more" href="doc/ccg/Vinci_Donato-CCG.pdf" data-fancybox="" data-type="pdf" style="position: inherit;">
+									<a class="read-more" href="doc/ccg/Vinci_Donato-CCG.pdf" data-fancybox=""
+										data-type="pdf" style="position: inherit;">
 										<span class="text">Casellario Giudiziale</span>
 										<svg class="icon">
 											<use xlink:href="css/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right">
