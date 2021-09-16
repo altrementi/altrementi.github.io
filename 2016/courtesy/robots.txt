@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /phpmailer/
+Sitemap: http://www.altre.menti.eu/sitemap.xml
